@@ -132,6 +132,14 @@ body {
   padding: 0px 10px;
 }
 
+.sidebar-item:focus{
+  color:red
+}
+
+.sidebar-item:active{
+  color:green
+}
+
 
 
 code {
