@@ -26,8 +26,10 @@ body {
   justify-content: center;
 }
 .app-container > nav {
-  padding: 0px 20px;
-  width: 100vw;
+  
+  width: 98vw;
+  display: flex;
+  align-items: center;
   height: 18vh;
   display: flex;
   background-color: white;
@@ -59,10 +61,10 @@ body {
 }
 
 .nav-menu {
-  height: 10vh;
   display: flex;
   flex-direction: row;
-  align-self: center;
+  align-self: flex-end;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .nav-item {
@@ -178,6 +180,7 @@ code {
   }
   .app-container > nav {
     height: 12vh;
+    width: 100vw;
   }
 
   .logo img {
@@ -277,6 +280,10 @@ code {
   .component-description{
     font-size: 16px ;
     width : 90vw;
+  }
+
+  .nav-menu{
+    justify-content: flex-end;
   }
 
 }
