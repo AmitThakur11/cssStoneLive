@@ -1,9 +1,12 @@
 const menu = document.querySelector(".menu");
 const sidebar = document.querySelector(".sidebar");
 const contentBox = document.querySelector(".content-box");
-const content = document.querySelector(".content")
+const loader = document.querySelector('.loader')
 const sidebarItem = document.querySelectorAll(".sidebar-item")
-const header = document.querySelector("nav")
+
+window.addEventListener('load',function(){
+  loader.classList.add('hide-loader')
+})
 
 function toggle() {
   sidebar.classList.toggle("active");
