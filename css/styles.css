@@ -10,8 +10,12 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
-  color: black;
+  
 }
+a{
+  color:black;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -56,7 +60,7 @@ body {
   width: 98vw;
   display: flex;
   align-items: center;
-  height: 18vh;
+  height: 15vh;
   display: flex;
   background-color: white;
   position: fixed;
@@ -180,7 +184,7 @@ code {
   font-size: 42px;
 }
 .component-box{
-  width : 80vw;
+  width : 100vw;
   padding:10px 5px;
   border-bottom : 1px solid black;
 }
@@ -202,7 +206,7 @@ code {
 }
 @media (max-width: 620px) {
   .nav-item {
-    font-size: 16px;
+    font-size: 14px;
   }
   .app-container > nav {
     height: 12vh;
