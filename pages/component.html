@@ -8,12 +8,13 @@
       rel="stylesheet"
       href="https://cssstonecomponent.netlify.app/style.css"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href ="../css/home.css"/>
+    <link rel="stylesheet" href="../css/home.css" />
     <link rel="icon" href="https://i.ibb.co/N65VjXL/stone-1.png" />
     <link
       rel="stylesheet"
@@ -25,7 +26,7 @@
   <body>
     <div class="app-container">
       <div class="loader">
-        <img src="../svg/stone.png" alt="">
+        <img src="../svg/stone.png" alt="" />
       </div>
       <nav>
         <a href="../index.html">
@@ -43,43 +44,53 @@
           </div>
         </div>
       </nav>
-      <div class="main">
+      <main class="main">
         <div class="main-content">
-          <div class="sidebar">
-            <div class="sidebar-item"><a href="#Avatar">Avatar</a></div>
-            <div class="sidebar-item"><a href="#Alert">Alert</a></div>
-            <div class="sidebar-item"><a href="#Badge">Badge</a></div>
-            <div class="sidebar-item"><a href="#Button">Button</a></div>
-            <div class="sidebar-item"><a href="#Card">Card</a></div>
-            <div class="sidebar-item"><a href="#Image">Image</a></div>
-            <div class="sidebar-item"><a href="#Input">Input</a></div>
-            <div class="sidebar-item"><a href="#List">List</a></div>
-            <div class="sidebar-item"><a href="#Navigation">Navigation</a></div>
-            <div class="sidebar-item"><a href="#Modal">Modal</a></div>
-            <div class="sidebar-item"><a href="#Rating">Rating</a></div>
-            <div class="sidebar-item">
+          <!--  Side bar code  -->
+
+          <aside class="sidebar">
+            <p class="sidebar-item"><a href="#Avatar">Avatar</a></p>
+            <p class="sidebar-item"><a href="#Alert">Alert</a></p>
+            <p class="sidebar-item"><a href="#Badge">Badge</a></p>
+            <p class="sidebar-item"><a href="#Button">Button</a></p>
+            <p class="sidebar-item"><a href="#Card">Card</a></p>
+            <p class="sidebar-item"><a href="#Image">Image</a></p>
+            <p class="sidebar-item"><a href="#Input">Input</a></p>
+            <p class="sidebar-item"><a href="#List">List</a></p>
+            <p class="sidebar-item"><a href="#Navigation">Navigation</a></p>
+            <p class="sidebar-item"><a href="#Modal">Modal</a></p>
+            <p class="sidebar-item"><a href="#Rating">Rating</a></p>
+            
+            <p class="sidebar-item">
               <a href="#Simplified">Simplified Grid</a>
-            </div>
-            <div class="sidebar-item">
+            </p>
+            <p class="sidebar-item">
+              <a href="#">Flex</a>
+            </p>
+            <p class="sidebar-item">
               <a href="#Text-utilities">Text Utilities</a>
-            </div>
-          </div>
-          <div class="content-box">
+            </p>
+          </aside>
+
+          <!-- Main content  -->
+
+          <main class="content-box">
             <div>
               <div class="menu">
                 <i class="fa fa-reorder"></i>
               </div>
               <div class="content">
+                <!-- Avatar Section  -->
+
                 <section id="Avatar" class="component-box">
-                  <pre
-                    id="Avatar"
-                  ><div class="page-title"><i class="fa fa-check-circle" aria-hidden="true"></i> COMPONENTS</div></pre>
-                  <div class="component-title">AVATAR</div>
-                  <div class="component-description">
+                  <pre id="Avatar">
+                    <p class="page-title"><i class="fa fa-check-circle" aria-hidden="true"></i> COMPONENTS</p></pre>
+                  <p class="component-title">AVATAR</p>
+                  <p class="component-description">
                     The Avatar component adds additional visual information
                     about a user.
-                  </div>
-                  <div class="x-avatar-container">
+                  </p>
+                  <section class="x-avatar-container">
                     <img
                       class="x-avatar x-large-avatar"
                       src="https://i.ibb.co/mSW9WMw/001-butcher.png"
@@ -98,12 +109,19 @@
                       alt="003-teacher"
                       border="0"
                     />
-                  </div>
-                  <pre><code class="language-html"> &lt;img class="x-avatar x-large-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png" alt="001-butcher"  /&gt;
-  &lt;img class="x-avatar x-large-avatar" src="https://i.ibb.co/cXRxcM5/002-trainers.png" alt="002-trainers"/&gt;
-  &lt;img class="x-avatar x-large-avatar" src="https://i.ibb.co/Fmpd1WB/003-teacher.png" alt="003-teacher" /&gt;</code></pre>
+                  </section>
 
-                  <div class="x-avatar-container">
+                  <!-- Code snippet  -->
+
+                  <pre>
+                    <code class="language-html">
+&lt;img class="x-avatar x-large-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png" alt="001-butcher"  /&gt;
+&lt;img class="x-avatar x-large-avatar" src="https://i.ibb.co/cXRxcM5/002-trainers.png" alt="002-trainers"/&gt;
+&lt;img class="x-avatar x-large-avatar" src="https://i.ibb.co/Fmpd1WB/003-teacher.png" alt="003-teacher" /&gt;
+                    </code>
+                  </pre>
+
+                  <section class="x-avatar-container">
                     <img
                       class="x-avatar x-medium-avatar"
                       src="https://i.ibb.co/kJBRrrC/004-business-man.png"
@@ -122,13 +140,19 @@
                       alt="006-doctor"
                       border="0"
                     />
-                  </div>
+                  </section>
 
-                  <pre><code class="language-html"> &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/kJBRrrC/004-business-man.png" alt="004-business-man"  /&gt;
-  &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/CWYGHQc/005-man.png" alt="005-man"  /&gt;
-  &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/S5nwQ8F/006-doctor.png" alt="006-doctor"  /&gt;</code></pre>
+                  <!-- Code snippet -->
 
-                  <div class="x-avatar-container">
+                  <pre>
+                    <code class="language-html">
+&lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/kJBRrrC/004-business-man.png" alt="004-business-man"  /&gt;
+&lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/CWYGHQc/005-man.png" alt="005-man"  /&gt;
+&lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/S5nwQ8F/006-doctor.png" alt="006-doctor"  /&gt;
+                    </code>
+                  </pre>
+
+                  <section class="x-avatar-container">
                     <img
                       class="x-avatar x-small-avatar"
                       src="https://i.ibb.co/SmQbh3B/007-designer.png"
@@ -147,118 +171,165 @@
                       alt="003-teacher"
                       border="0"
                     />
-                  </div>
-                  <pre><code  class="language-html code "> &lt;img class="x-avatar x-small-avatar" src="https://i.ibb.co/SmQbh3B/007-designer.png" alt="007-designer" border="0" /&gt;
-  &lt;img class="x-avatar x-small-avatar" src="https://i.ibb.co/BsR3HKW/008-teenager.png" alt="008-teenager" border="0" /&gt;
-  &lt;img class="x-avatar x-small-avatar" src="https://i.ibb.co/Fmpd1WB/003-teacher.png" alt="003-teacher" border="0" /&gt;</code></pre>
+                  </section>
+                  <pre id="Alert"></pre>
+
+                  <!-- Code snippet -->
+
+                  <pre><code  class="language-html code ">
+&lt;img class="x-avatar x-small-avatar" src="https://i.ibb.co/SmQbh3B/007-designer.png" alt="007-designer" border="0" /&gt;
+&lt;img class="x-avatar x-small-avatar" src="https://i.ibb.co/BsR3HKW/008-teenager.png" alt="008-teenager" border="0" /&gt;
+&lt;img class="x-avatar x-small-avatar" src="https://i.ibb.co/Fmpd1WB/003-teacher.png" alt="003-teacher" border="0" /&gt;</code></pre>
                 </section>
 
-                <pre id="Alert"></pre>
+                <!-- Alerts  -->
+
+                
 
                 <section class="component-box">
-                  <div class="component-title">Alert</div>
-                  <div class="component-description">
+                  <p class="component-title">Alert</p>
+                  <p class="component-description">
                     Alert messages can be used to notify the user about
                     something special: danger, success, information or warning.
                     × Danger! Indicates a dangerous or potentially negative
                     action.
-                  </div>
+                  </p>
                   <div class="x-alert-container">
                     <div class="x-alert x-simple-alert">
                       <i class="fa fa-circle-o x-alert-head"></i>
-                      <div class="x-alert-text">This is a simple alert</div>
+                      <p class="x-alert-text">This is a simple alert</p>
                       <i class="fa fa-times-circle x-alert-end"></i>
                     </div>
 
-                    <pre><code class="language-html">&lt;div class="x-alert x-simple-alert"&gt;
-  &lt;i class="fa fa-circle-o x-alert-head"&gt;&lt;/i&gt;
-  &lt;div class="x-alert-text">This is a simple alert&lt;/div&gt;
-  &lt;i class="fa fa-times-circle x-alert-end"&gt;&lt;/i&gt;
-&lt;/div&gt;</code></pre>
+                    <!-- Code snippet -->
+
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-alert x-simple-alert"&gt;
+    &lt;i class="fa fa-circle-o x-alert-head"&gt;&lt;/i&gt;
+    &lt;p class="x-alert-text">This is a simple alert&lt;/p&gt;
+    &lt;i class="fa fa-times-circle x-alert-end"&gt;&lt;/i&gt;
+&lt;/div&gt;
+                      </code>
+                    </pre>
 
                     <div class="x-alert x-success-alert">
                       <i class="fa fa-check-circle x-alert-head"></i>
-                      <div class="x-alert-text">This is a Success alert</div>
+                      <p class="x-alert-text">This is a Success alert</p>
                       <i class="fa fa-times-circle x-alert-end"></i>
                     </div>
-                    <pre><code class="language-html">&lt;div class="x-alert x-success-alert"&gt;
+
+                    <!-- Code snippet  -->
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-alert x-success-alert"&gt;
     &lt;i class="fa fa-check-circle x-alert-head"&gt;&lt;/i&gt;
-    &lt;div class="x-alert-text"&gt;This is a Success alert&lt;/div&gt;
+    &lt;p class="x-alert-text"&gt;This is a Success alert&lt;/p&gt;
     &lt;i class="fa fa-times-circle x-alert-end"&gt;&lt;/i&gt;
-  &lt;/div&gt;</code></pre>
+&lt;/div&gt;
+                      </code>
+                    </pre>
 
                     <div class="x-alert danger-alert">
                       <i class="fa fa-bomb x-alert-head"></i>
-                      <div class="x-alert-text">This is a Danger alert</div>
+                      <p class="x-alert-text">This is a Danger alert</p>
                       <i class="fa fa-times-circle x-alert-end"></i>
                     </div>
-                    <pre><code class="language-html">&lt;div class="x-alert danger-alert"&gt;
-  &lt;i class="fa fa-bomb x-alert-head"&gt;&lt;/i&gt;
-  &lt;div class="x-alert-text"&gt;This is a Danger alert&lt;/div&gt;
-  &lt;i class="fa fa-times-circle x-alert-end"&gt;&lt;/i&gt;
-&lt;/div&gt;</code></pre>
+
+                    <!-- Code snippet  -->
+
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-alert danger-alert"&gt;
+    &lt;i class="fa fa-bomb x-alert-head"&gt;&lt;/i&gt;
+    &lt;p class="x-alert-text"&gt;This is a Danger alert&lt;/p&gt;
+    &lt;i class="fa fa-times-circle x-alert-end"&gt;&lt;/i&gt;
+&lt;/div&gt;
+                      </code>
+                    </pre>
 
                     <div class="x-alert x-warning-alert">
                       <i class="fa fa-warning x-alert-head"></i>
-                      <div class="x-alert-text">This is a Warning alert</div>
+                      <p class="x-alert-text">This is a Warning alert</p>
                       <i class="fa fa-times-circle x-alert-end"></i>
                     </div>
 
-                    <pre><code class="language-html">&lt;div class="x-alert x-warning-alert"&gt;
-  &lt;i class="fa fa-warning x-alert-head"&gt;&lt;/i&gt;
-  &lt;div class="x-alert-text"&gt;This is a Warning alert&lt;/div&gt;
-  &lt;i class="fa fa-times-circle x-alert-end"&gt;&lt;/i&gt;
-&lt;/div&gt;</code></pre>
+                    <pre id="Badge"></pre>
+                    <!-- Code snippet  -->
+
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-alert x-warning-alert"&gt;
+    &lt;i class="fa fa-warning x-alert-head"&gt;&lt;/i&gt;
+    &lt;p class="x-alert-text"&gt;This is a Warning alert&lt;/p&gt;
+    &lt;i class="fa fa-times-circle x-alert-end"&gt;&lt;/i&gt;
+&lt;/div&gt;
+                      </code>
+                    </pre>
                   </div>
+                  
                 </section>
 
-                <pre id="Badge"></pre>
+                <!-- Badge Component -->
+
+             
 
                 <section class="component-box">
-                  <div class="component-title">Badge</div>
-                  <div class="component-description">
+                  <p class="component-title">Badge</p>
+                  <p class="component-description">
                     The badges is used to add additional information to the
                     content. For example, some websites associate some number of
                     notifications to the link.
-                  </div>
-                  <div class="component">
+                  </p>
+                  <section class="component">
                     <div class="x-badge-container">
                       <div class="x-icon-badge">
                         <i class="fa fa-heart-o x-icon"></i>
-                        <div class="x-badge x-top-left">1</div>
+                        <p class="x-badge x-top-left">1</p>
                       </div>
                       <div class="x-icon-badge">
                         <i class="fa fa fa-trash-o x-icon"></i>
-                        <div class="x-badge x-bottom-left">1</div>
+                        <p class="x-badge x-bottom-left">1</p>
                       </div>
                       <div class="x-icon-badge">
                         <i class="fa fa fa-shopping-bag x-icon"></i>
-                        <div class="x-badge x-top-right">1</div>
+                        <p class="x-badge x-top-right">1</p>
                       </div>
                       <div class="x-icon-badge">
                         <i class="fa fa fa-thumbs-o-up x-icon"></i>
-                        <div class="x-badge x-bottom-right">1</div>
+                        <p class="x-badge x-bottom-right">1</p>
                       </div>
                     </div>
 
-                    <pre><code class="language-html"> &lt;div class="x-icon-badge"&gt;
-  &lt;i class="fa fa-heart-o x-icon"&gt;&lt;/i&gt;
-&lt;div class="x-badge x-top-left"&gt;1&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="x-icon-badge"&gt;
-  &lt;i class="fa fa fa-trash-o x-icon"&gt;&lt;/i&gt;
-  &lt;div class="x-badge x-bottom-left "&gt;1&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="x-icon-badge"&gt;
-  &lt;i class="fa fa fa-shopping-bag x-icon">&lt;/i&gt;
-  &lt;div class="x-badge x-top-right "&gt;1&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="x-icon-badge"&gt;
-  &lt;i class="fa fa fa-thumbs-o-up x-icon">&lt;/i>
-  &lt;div class="x-badge x-bottom-right "&gt;1&lt;/div&gt;
-&lt;/div&gt;</code></pre>
+                    <!-- Code snippet  -->
 
-                    <div class="x-badge-container">
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-icon-badge"&gt;
+    &lt;i class="fa fa-heart-o x-icon"&gt;&lt;/i&gt;
+    &lt;p class="x-badge x-top-left"&gt;1&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="x-icon-badge"&gt;
+    &lt;i class="fa fa fa-trash-o x-icon"&gt;&lt;/i&gt;
+    &lt;p class="x-badge x-bottom-left "&gt;1&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="x-icon-badge"&gt;
+    &lt;i class="fa fa fa-shopping-bag x-icon">&lt;/i&gt;
+    &lt;p class="x-badge x-top-right "&gt;1&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="x-icon-badge"&gt;
+    &lt;i class="fa fa fa-thumbs-o-up x-icon">&lt;/i>
+    &lt;p class="x-badge x-bottom-right "&gt;1&lt;/p&gt;
+&lt;/div&gt;
+                    </code>
+                  </pre>
+
+                    <!-- Badge avatar  -->
+
+                    <section class="x-badge-container">
                       <div class="x-avatar-badge">
                         <img
                           class="x-avatar x-medium-avatar"
@@ -266,7 +337,7 @@
                           alt="008-teenager"
                           border="0"
                         />
-                        <div class="x-badge x-avatar-bottom-right"></div>
+                        <p class="x-badge x-avatar-bottom-right"></p>
                       </div>
                       <div class="x-avatar-badge">
                         <img
@@ -275,9 +346,7 @@
                           alt="008-teenager"
                           border="0"
                         />
-                        <div
-                          class="x-badge x-avatar-top-right x-badge-green"
-                        ></div>
+                        <p class="x-badge x-avatar-top-right x-badge-green"></p>
                       </div>
                       <div class="x-avatar-badge">
                         <img
@@ -286,61 +355,82 @@
                           alt="008-teenager"
                           border="0"
                         />
-                        <div class="x-badge x-avatar-bottom-left"></div>
+                        <p class="x-badge x-avatar-bottom-left"></p>
                       </div>
-                    </div>
-                    <pre><code class="language-html">&lt;div class="x-badge-container"&gt;
-  &lt;div class=x-avatar-badge&gt;
+                    </section>
+
+                    <!-- Code snippet  -->
+
+                    <pre>
+                      <code class="language-html">
+&lt;div class=x-avatar-badge&gt;
     &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/Fmpd1WB/003-teacher.png" alt="008-teenager" border="0" /&gt;
-    &lt;div class="x-badge x-avatar-bottom-right "&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="x-avatar-badge"&gt;
+    &lt;p class="x-badge x-avatar-bottom-right "&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="x-avatar-badge"&gt;
     &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/SmQbh3B/007-designer.png" alt="008-teenager" border="0" /&gt;
-  &lt;div class="x-badge x-avatar-top-right x-badge-green ">&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="x-avatar-badge"&gt;
+    &lt;p class="x-badge x-avatar-top-right x-badge-green ">&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="x-avatar-badge"&gt;
     &lt;img class="x-avatar x-large-avatar" src="https://i.ibb.co/BsR3HKW/008-teenager.png" alt="008-teenager" border="0" /&gt;
-  &lt;div class="x-badge x-avatar-bottom-left ">&lt;/div&gt;
-  &lt;/div&gt;
-
-&lt;/div&gt;</code></pre>
-                  </div>
-                </section>
-
+    &lt;p class="x-badge x-avatar-bottom-left ">&lt;/p&gt;
+&lt;/div&gt;
+                      </code>
+                    </pre>
                 <pre id="Button"></pre>
 
+                  </section>
+                </section>
+
+                <!-- Buttons -->
+
+
                 <section class="component-box">
-                  <div class="component-title">Button</div>
-                  <div class="component-description">
+                  <p class="component-title">Button</p>
+                  <p class="component-description">
                     Button are used for performing actions.
-                  </div>
+                  </p>
                   <div class="component">
-                    <button class="x-prmBtn">Primary</button>
-                    <button class="x-scndBtn">Secondary</button>
+                    <button class="x-prm-btn">Primary</button>
+                    <button class="x-scnd-btn">Secondary</button>
+                    <button class ="x-scnd-btn text-white"> <i class="fa fa-cart-plus" aria-hidden="true"></i> <span>Secondary</span></button>
                     <h3>Floatng button</h3>
-                    <button class="x-floatingBtn">
+                    <button class="x-floating-btn">
                       <i class="fa fa-plus"></i>
                     </button>
                   </div>
+
+                  <!-- Code snippet -->
+
                   <pre>
-  <code class ="language-html">
-    &lt;button class ="x-prmBtn"&gt;Primary&lt;/button&gt;
-    &lt;button class ="x-scndBtn"&gt;Secondary&lt;/button&gt;
-    &lt;button class ="x-floatingBtn"&gt;&lt;i class ="fa fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
-  </code>
-</pre>
+                    <code class ="language-html">
+&lt;button class ="x-prmBtn"&gt;Primary&lt;/button&gt;
+&lt;button class ="x-scndBtn"&gt;Secondary&lt;/button&gt;
+&lt;button class ="x-scnd-btn text-white"&gt 
+    &lt;i class="fa fa-cart-plus" aria-hidden="true"&gt;&lt;/i>
+    &lt;span&gt;Secondary&lt;/span&gt;
+&lt;/button&gt
+
+&lt;button class ="x-floatingBtn"&gt;
+    &lt;i class ="fa fa-plus"&gt;&lt;/i&gt;
+&lt;/button&gt;
+                    </code>
+                  </pre>
+                  <pre id="Card"></pre>
                 </section>
+
+                <!-- Cards -->
 
                 <pre id="Card"></pre>
 
                 <section class="component-box">
-                  <div class="component-title">Card</div>
-                  <div class="component-description">
+                  <p class="component-title">Card</p>
+                  <p class="component-description">
                     A card is a flexible and extensible content container. It
                     includes options for headers and footers, a wide variety of
                     content, contextual background colors, and powerful display
                     options.
-                  </div>
+                  </p>
                   <div class="component">
                     <section class="x-horizontal-card">
                       <div class="x-horizontal-card-content">
@@ -350,13 +440,13 @@
                           border="0"
                         />
                         <div class="x-hcontent">
-                          <div class="x-htitle">
+                          <p class="x-htitle">
                             Product naming is the discipline of deciding what a
                             product will be called,
-                          </div>
-                          <div class="x-hcard-price">
+                          </p>
+                          <p class="x-hcard-price">
                             Rs. 1499<span> (Rs.1999)</span>
-                          </div>
+                          </p>
                         </div>
                       </div>
                       <i class="fa fa-trash-o x-hcard-icon"></i>
@@ -364,80 +454,90 @@
                     </section>
                   </div>
 
-                  <pre><code class="language-html">
+                  <!-- Code snippet  -->
+
+                  <pre>
+                    <code class="language-html">
 &lt;section class="x-horizontal-card"&gt;
-  &lt;div class="x-horizontal-card-content"&gt;
-    &lt;img
-      src="https://i.ibb.co/1K3XH3Q/female-tshirt-2.jpg"
-      alt="female-tshirt-2"
-      border="0"
-    /&gt;
-    &lt;div class="x-hcontent"&gt;
-      &lt;div class="x-htitle"&gt;
-        Product naming is the discipline of deciding what a product will
-        be called,
-      &lt;/div&gt;
-      &lt;div class ="x-hcard-price"&gt;
-          Rs. 1499&lt;span&gt; (Rs.1999)&lt;/span&gt;
-          &lt;/div>
-      &lt;/div&gt;
+    &lt;div class="x-horizontal-card-content"&gt;
+        &lt;img src="https://i.ibb.co/1K3XH3Q/female-tshirt-2.jpg"
+        alt="female-tshirt-2" border="0"/&gt;
+        &lt;div class="x-hcontent"&gt;
+            &lt;p class="x-htitle"&gt;
+                Product naming is the discipline of deciding what a product will
+                be called,
+            &lt;/p&gt;
+            &lt;p class ="x-hcard-price"&gt;
+                Rs. 1499&lt;span&gt; (Rs.1999)&lt;/span&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
     &lt;i class="fa fa-trash-o x-hcard-icon">&lt;/i&gt;
     &lt;button class="x-hcard-btn">ADD TO CART&lt;/button&gt;
 &lt;/section&gt;
-                </code></pre>
+                </code>
+              </pre>
 
-                  <section class="x-cart-card">
-                    <img
-                      src="https://i.ibb.co/L9L0Xkd/women-pink-t-shirt-back.jpg"
-                      alt="women-pink-t-shirt-back"
-                      border="0"
-                    />
-                    <div class="x-cart-content">
-                      <div class="x-cart-title">
-                        this product is unavailable we will notify you when
-                        available
-                      </div>
-                      <div class="x-cart-price">
-                        Rs.1499 <span> (Rs.1999)</span>
-                      </div>
-                      <div class="x-cart-qty-section">
-                        <i class="fa fa-minus-circle x-cart-qty-sub"></i>
-                        <div class="x-cart-qty">0</div>
-                        <i class="fa fa-plus-circle x-cart-qty-add"></i>
-                      </div>
-                      <div class="x-cart-btn-section">
-                        <button class="x-cart-btn">Delete</button>
-                        <button class="x-cart-btn">Move to wishist</button>
-                      </div>
+
+
+                <section class="x-cart-card">
+                  <img
+                    src="https://i.ibb.co/L9L0Xkd/women-pink-t-shirt-back.jpg"
+                    alt="women-pink-t-shirt-back"
+                    border="0"
+                  />
+                  <div class="x-cart-content">
+                    <p class="x-cart-title">
+                      this product is unavailable we will notify you when
+                      available
+                    </p>
+                    <p class="x-cart-price">
+                      Rs.1499 <span> (Rs.1999)</span>
+                    </p>
+                    <div class="x-cart-qty-section">
+                      <i class="fa fa-minus-circle x-cart-qty-sub"></i>
+                      <p class="x-cart-qty">0</p>
+                      <i class="fa fa-plus-circle x-cart-qty-add"></i>
                     </div>
-                  </section>
+                    <div class="x-cart-btn-section">
+                      <button class="x-cart-btn">Delete</button>
+                      <button class="x-cart-btn">Move to wishist</button>
+                    </div>
+                  </div>
+                </section>
 
-                  <pre><code class="language-html">
+                <!-- Code snippet  -->
+
+                  <pre>
+                    <code class="language-html">
 &lt;section class="x-cart-card"&gt;
-&lt;img
-    src="https://i.ibb.co/L9L0Xkd/women-pink-t-shirt-back.jpg"
-    alt="women-pink-t-shirt-back"
-    border="0"
-  /&gt;
-  &lt;div class="x-cart-content"&gt;
-  &lt;div class="x-cart-title"&gt;
-      this product is unavailable we will notify you when available
-      &lt;/div&gt;
-      &lt;div class="x-cart-price">Rs.1499 &lt;span&gt; (Rs.1999)&lt;/span&gt;&lt;/div&gt;
-      &lt;div class="x-cart-qty-section"&gt;
-      &lt;i class="fa fa-minus-circle x-cart-qty-sub"&gt;&lt;/i&gt;
-      &lt;div class="x-cart-qty"&gt;0&lt;/div&gt;
-      &lt;i  class="fa fa-plus-circle x-cart-qty-add"&gt;&lt;/i&gt;
+      &lt;img
+      src="https://i.ibb.co/L9L0Xkd/women-pink-t-shirt-back.jpg"
+      alt="women-pink-t-shirt-back"
+      border="0"/&gt;
+    &lt;div class="x-cart-content"&gt;
+        &lt;p class="x-cart-title"&gt;
+            this product is unavailable we will notify you when available
+        &lt;/p&gt;
+        &lt;p class="x-cart-price">
+            Rs.1499 &lt;span&gt; (Rs.1999)&lt;/span&gt;
+        &lt;/p&gt;
+        &lt;div class="x-cart-qty-section"&gt;
+            &lt;i class="fa fa-minus-circle x-cart-qty-sub"&gt;&lt;/i&gt;
+            &lt;p class="x-cart-qty"&gt;0&lt;/p&gt;
+            &lt;i  class="fa fa-plus-circle x-cart-qty-add"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class="x-cart-btn-section"&gt;
+            &lt;button class="x-cart-btn">Delete&lt;/button&gt;
+            &lt;button class="x-cart-btn">Move to wishist&lt;/button&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class="x-cart-btn-section"&gt;
-    &lt;button class="x-cart-btn">Delete&lt;/button&gt;
-    &lt;button class="x-cart-btn">Move to wishist&lt;/button&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/section &gt;
+&lt;/section &gt;
 
-                  </code></pre>
+                  </code>
+                </pre>
+
+                <!-- Vertical car -->
 
                   <section class="x-vertical-card">
                     <img
@@ -446,41 +546,52 @@
                       border="0"
                     />
                     <div class="vertical-card-content">
-                      <div class="title">
+                      <p class="title">
                         hi synthetic best in quality t shirt
-                      </div>
-                      <div class="sub_title">T-shirt</div>
-                      <div class="x_price">Rs. 1499<span> (Rs.1999)</span></div>
+                      </p>
+                      <p class="sub_title">T-shirt</p>
+                      <p class="x_price">Rs. 1499<span> (Rs.1999)</span></p>
                     </div>
                     <i class="fa fa-heart-o x-card-icon x-icon1"></i>
                     <i class="fa fa-cart-plus x-card-icon x-icon2"></i>
 
-                    <div class="x-vertical-badge">badge</div>
+                    <p class="x-vertical-badge">badge</p>
                   </section>
 
-                  <pre><code class="language-html">
+                  <!-- Code snippet -->
+
+                  <pre>
+                    <code class="language-html">
 &lt;section class = "x-vertical-card"&gt;
-  &lt;img src="https://i.ibb.co/1K3XH3Q/female-tshirt-2.jpg" alt="female-tshirt-2" border="0"&gt;
-  &lt;div class="vertical-card-content"&gt;
-      &lt;div class= "title"&gt;hi synthetic best in quality t shirt&lt;/div&gt;
-      &lt;div class = "sub_title"&gt;T-shirt&lt;/i&gt;&lt;/div&gt;
-      &lt;div class="x_price"&gt;Rs. 1499&lt;span &gt; (Rs.1999)&lt;/span&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;i class="fa fa-heart-o x-card-icon x-icon1"&gt;&lt;/i&gt;
-      &lt;i class="fa fa-cart-plus x-card-icon x-icon2"&gt;&lt;/i&gt;
-      &lt;div class = "x-vertical-badge"&gt;badge&lt;/div&gt;
-      &lt;/section&gt;
-                </code></pre>
+    &lt;img src="https://i.ibb.co/1K3XH3Q/female-tshirt-2.jpg" alt="female-tshirt-2" border="0"&gt;
+    &lt;div class="vertical-card-content"&gt;
+        &lt;pclass= "title"&gt;hi synthetic best in quality t shirt&lt;/p&gt;
+        &lt;p class = "sub_title"&gt;T-shirt&lt;/i&gt;&lt;/p&gt;
+        &lt;p class="x_price"&gt;Rs. 1499&lt;span &gt; (Rs.1999)&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;i class="fa fa-heart-o x-card-icon x-icon1"&gt;&lt;/i&gt;
+    &lt;i class="fa fa-cart-plus x-card-icon x-icon2"&gt;&lt;/i&gt;
+    &lt;div class = "x-vertical-badge"&gt;
+        badge
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </code>
+                    <pre id="Image"></pre>
+                  </pre>
+
                 </section>
 
-                <pre id="Image"></pre>
+                <!-- Images -->
+
+                
+
                 <section class="component-box">
-                  <div class="component-title">Image</div>
-                  <div class="component-description">
+                  <p class="component-title">Image</p>
+                  <p class="component-description">
                     Images are made responsive with max-width: 100%; and height:
                     auto; are applied to the image so that it scales with the
                     parent element.
-                  </div>
+                  </p>
                   <div class="component">
                     <img
                       class="x-responsive-image"
@@ -489,7 +600,11 @@
                       border="0"
                     />
 
-                    <pre><code class="language-html">&lt;img class="x-responsive-image" src="https://i.ibb.co/gzYndmv/pexels-rituraj-singh-1749495.jpg" alt="pex" border="0" /&gt;</code></pre>
+                    <pre>
+                      <code class="language-html">
+&lt;img class="x-responsive-image" src="https://i.ibb.co/gzYndmv/pexels-rituraj-singh-1749495.jpg" alt="pex" border="0" /&gt;
+                      </code>
+                    </pre>
 
                     <img
                       class="x-round-image"
@@ -498,66 +613,100 @@
                       border="0"
                     />
 
-                    <pre><code class="language-html">&lt;img class="x-round-image" src="https://i.ibb.co/gzYndmv/pexels-rituraj-singh-1749495.jpg" alt="pex" border="0" /&gt;</code></pre>
+                    <pre>
+                      <code class="language-html">
+&lt;img class="x-round-image" src="https://i.ibb.co/gzYndmv/pexels-rituraj-singh-1749495.jpg" alt="pex" border="0" /&gt;
+                      </code>
+                    </pre>
+                    <pre id="Input"></pre>
                   </div>
                 </section>
 
-                <pre id="Input"></pre>
+                <!-- Input -->
+
+                
 
                 <section class="component-box">
-                  <div class="component-title">Input</div>
-                  <div class="component-description">
+                  <p class="component-title">Input</p>
+                  <p class="component-description">
                     The input component specifies an input field where the user
                     can enter data. The input component is the most important
                     form element. The input component can be displayed in
                     several ways, depending on the type attribute.
-                  </div>
+                  </p>
                   <div class="component">
                     <input class="x-simple-input" placeholder="Enter here" />
 
-                    <pre><code class="language-html">&lt;input class="x-simple-input" placeholder="Enter here" /&gt;</code></pre>
+                    <!-- Code snippet  -->
+
+                    <pre>
+                      <code class="language-html">
+&lt;input class="x-simple-input" placeholder="Enter here" /&gt;
+                      </code>
+                    </pre>
+
+
                     <div class="x-input-with-icon">
                       <i class="fa fa-user-circle x-input-logo"></i>
                       <input class="x-icon-input" placeholder="Enter name" />
                     </div>
 
-                    <pre><code class="language-html">&lt;div class="x-input-with-icon"&gt;
+                    <!-- Code snippet -->
+                    
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-input-with-icon"&gt;
     &lt;i class="fa fa-user-circle x-input-logo"&gt;&lt;/i&gt;
     &lt;input class="x-icon-input" placeholder="Enter name" /&gt;
-  &lt;/div&gt;</code></pre>
+&lt;/div&gt;
+                      </code>
+                    </pre>
 
                     <div class="x-input-with-icon">
                       <i class="fa fa-envelope x-input-logo"></i>
                       <input class="x-icon-input" placeholder="Enter email" />
                     </div>
 
-                    <pre><code class="language-html">&lt;div class="x-input-with-icon"&gt;
+                    <!-- Code snippet  -->
+
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-input-with-icon"&gt;
     &lt;i class="fa fa-envelope x-input-logo"&gt;&lt;/i&gt;
     &lt;input class="x-icon-input" placeholder="Enter email" /&gt;
-  &lt;/div&gt;</code></pre>
+&lt;/div&gt;
+                      </code>
+                    </pre>
 
                     <div class="x-input-badge-container">
                       <input class="x-badge-input" />
-                      <div class="x-input-badge">Name</div>
+                      <p class="x-input-badge">Name</p>
                     </div>
 
-                    <pre><code class="language-html">&lt;div class="x-input-badge-container"&gt;
+                    <!-- Code snippet  -->
+                    
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-input-badge-container"&gt;
     &lt;input class="x-badge-input" /&gt;
-    &lt;div class="x-input-badge"&gt;Name&lt;/div&gt;
-  &lt;/div&gt;</code></pre>
+    &lt;p class="x-input-badge"&gt;Name&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
                   </div>
                 </section>
+
+                <!-- List -->
 
                 <pre id="List"></pre>
 
                 <section class="component-box">
-                  <div class="component-title">List</div>
-                  <div class="component-description">
+                  <p class="component-title">List</p>
+                  <p class="component-description">
                     Lists allow web developers to group a set of related items
                     in lists.
-                  </div>
+                  </p>
                   <div class="component">
-                    <div class="x-list">
+                    <section class="x-list">
                       <ul class="x-simple-list">
                         <li>LIST ITEM 1</li>
                         <li>LIST ITEM 2</li>
@@ -566,13 +715,19 @@
                         <li>LIST ITEM 5</li>
                       </ul>
 
-                      <pre><code class="language-html">&lt;ul class="x-simple-list"&gt;
+                      <!-- Code snippet  -->
+
+                      <pre>
+                        <code class="language-html">
+&lt;ul class="x-simple-list"&gt;
     &lt;li&gt;LIST ITEM 1&lt;/li&gt;
     &lt;li&gt;LIST ITEM 2&lt;/li&gt;
     &lt;li&gt;LIST ITEM 3&lt;/li&gt;
     &lt;li&gt;LIST ITEM 4&lt;/li&gt;
     &lt;li&gt;LIST ITEM 5&lt;/li&gt;
-  &lt;/ul&gt;</code></pre>
+&lt;/ul&gt;
+                        </code>
+                      </pre>
 
                       <ul class="x-stacked-list">
                         <li class="x-stacked-item">
@@ -582,9 +737,27 @@
                             alt="001-butcher"
                             border="0"
                           />
-                          <div class="x-list-info">
+                          <p class="x-list-info">
                             your photo liked by user3121
-                          </div>
+                          </p>
+                          <img
+                            class="x-stack-image"
+                            src="https://i.ibb.co/Pwt2yp1/backdrop.jpg"
+                            alt="backdrop"
+                            border="0"
+                          />
+                        </li>
+
+                        <li class="x-stacked-item">
+                          <img
+                            class="x-avatar x-medium-avatar"
+                            src="https://i.ibb.co/mSW9WMw/001-butcher.png"
+                            alt="001-butcher"
+                            border="0"
+                          />
+                          <p class="x-list-info">
+                            your photo liked by user3121
+                          </p>
                           <img
                             class="x-stack-image"
                             src="https://i.ibb.co/Pwt2yp1/backdrop.jpg"
@@ -599,9 +772,9 @@
                             alt="001-butcher"
                             border="0"
                           />
-                          <div class="x-list-info">
+                          <p class="x-list-info">
                             your photo liked by user3121
-                          </div>
+                          </p>
                           <img
                             class="x-stack-image"
                             src="https://i.ibb.co/Pwt2yp1/backdrop.jpg"
@@ -616,26 +789,9 @@
                             alt="001-butcher"
                             border="0"
                           />
-                          <div class="x-list-info">
+                          <p class="x-list-info">
                             your photo liked by user3121
-                          </div>
-                          <img
-                            class="x-stack-image"
-                            src="https://i.ibb.co/Pwt2yp1/backdrop.jpg"
-                            alt="backdrop"
-                            border="0"
-                          />
-                        </li>
-                        <li class="x-stacked-item">
-                          <img
-                            class="x-avatar x-medium-avatar"
-                            src="https://i.ibb.co/mSW9WMw/001-butcher.png"
-                            alt="001-butcher"
-                            border="0"
-                          />
-                          <div class="x-list-info">
-                            your photo liked by user3121
-                          </div>
+                          </p>
                           <img
                             class="x-stack-image"
                             src="https://i.ibb.co/Pwt2yp1/backdrop.jpg"
@@ -645,57 +801,72 @@
                         </li>
                       </ul>
 
-                      <pre><code class="language-html">&lt;ul class="x-stacked-list"&gt;
+                      <!-- Code snippet -->
+
+                      <pre>
+                        <code class="language-html">
+&lt;ul class="x-stacked-list"&gt;
+
     &lt;li class="x-stacked-item"&gt;
-      &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png"
-        alt="001-butcher" border="0" /&gt;
-      &lt;div class="x-list-info">your photo liked by user3121&lt;/div&gt;
-      &lt;img class="x-stack-image" src="https://i.ibb.co/Pwt2yp1/backdrop.jpg" alt="backdrop"
-        border="0" /&gt;
+        &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png"
+          alt="001-butcher" border="0" /&gt;
+        &lt;p class="x-list-info">your photo liked by user3121&lt;/p&gt;
+        &lt;img class="x-stack-image" src="https://i.ibb.co/Pwt2yp1/backdrop.jpg" alt="backdrop"
+          border="0" /&gt;
     &lt;/li&gt;
+
     &lt;li class="x-stacked-item"&gt;
-      &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png"
-        alt="001-butcher" border="0" /&gt;
-      &lt;div class="x-list-info"&gt;your photo liked by user3121&lt;/div&gt;
-      &lt;img class="x-stack-image" src="https://i.ibb.co/Pwt2yp1/backdrop.jpg" alt="backdrop"
-        border="0" /&gt;
+        &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png"
+          alt="001-butcher" border="0" /&gt;
+        &lt;p class="x-list-info">your photo liked by user3121&lt;/p&gt;
+        &lt;img class="x-stack-image" src="https://i.ibb.co/Pwt2yp1/backdrop.jpg" alt="backdrop"
+          border="0" /&gt;
     &lt;/li&gt;
+
     &lt;li class="x-stacked-item"&gt;
-      &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png"
-      alt="001-butcher" border="0" /&gt;
-      &lt;div class="x-list-info"&gt;your photo liked by user3121&lt;/div&gt;
-    &lt;img class="x-stack-image" src="https://i.ibb.co/Pwt2yp1/backdrop.jpg" alt="backdrop"
-        border="0" /&gt;
+        &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png"
+          alt="001-butcher" border="0" /&gt;
+        &lt;p class="x-list-info">your photo liked by user3121&lt;/p&gt;
+        &lt;img class="x-stack-image" src="https://i.ibb.co/Pwt2yp1/backdrop.jpg" alt="backdrop"
+          border="0" /&gt;
     &lt;/li&gt;
+
     &lt;li class="x-stacked-item"&gt;
-      &lt;img class="x-avatar x-medium-avatar " src="https://i.ibb.co/mSW9WMw/001-butcher.png"
-        alt="001-butcher" border="0" /&gt;
-      &lt;div class="x-list-info">your photo liked by user3121&lt;/div&gt;
-      &lt;img class="x-stack-image" src="https://i.ibb.co/Pwt2yp1/backdrop.jpg" alt="backdrop"
-        border="0" /&gt;
+        &lt;img class="x-avatar x-medium-avatar" src="https://i.ibb.co/mSW9WMw/001-butcher.png"
+          alt="001-butcher" border="0" /&gt;
+        &lt;p class="x-list-info">your photo liked by user3121&lt;/p&gt;
+        &lt;img class="x-stack-image" src="https://i.ibb.co/Pwt2yp1/backdrop.jpg" alt="backdrop"
+          border="0" /&gt;
     &lt;/li&gt;
-  &lt;/ul&gt;</code></pre>
-                    </div>
+    
+&lt;/ul&gt;
+                      </code>
+                    </pre>
+                    <pre id="Navigation"></pre>
+
+                    </section>
                   </div>
                 </section>
+
+                <!-- Navigation bar --> 
 
                 <pre id="Navigation"></pre>
 
                 <section class="component-box">
-                  <div class="component-title">Navigation</div>
-                  <div class="component-description">
+                  <p class="component-title">Navigation</p>
+                  <p class="component-description">
                     Navigation bar are the component which is the most important
                     part of a site used for navigation between pages.
-                  </div>
+                  </p>
                   <div class="component">
-                    <div class="x-nav-container">
+                    <header class="x-nav-container">
                       <nav class="x-nav">
                         <div class="x-logo">
                           <img
                             src="https://i.ibb.co/CPR2GLw/wave.png"
                             alt="logo"
                           />
-                          <div class="x-name">BRAND<span>NAME</span></div>
+                          <p class="x-name">BRAND<span>NAME</span></p>
                         </div>
                         <ol>
                           <li>HOME</li>
@@ -703,189 +874,276 @@
                           <li>ABOUT</li>
                         </ol>
                       </nav>
-                    </div>
+                    </header>
                   </div>
 
-                  <pre><code class="language-html">&lt;div class="x-nav-container"&gt;
+                  <!-- Code snippet -->
+
+                  <pre>
+                    <code class="language-html">
+&lt;header class="x-nav-container"&gt;
     &lt;nav class="x-nav"&gt;
-      &lt;div class="x-logo"&gt;
-        &lt;img src="https://i.ibb.co/CPR2GLw/wave.png" alt="logo" /&gt;
-        &lt;div class="x-name"&gt;BRAND&lt;span&gt;NAME&lt;/span&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;ol&gt;
-        &lt;li&gt;HOME&lt;/li&gt;
-        &lt;li&gt;DOCUMENTATION&lt;/li&gt;
-        &lt;li&gt;ABOUT&lt;/li&gt;
-      &lt;/ol&gt;
+        &lt;div class="x-logo"&gt;
+            &lt;img src="https://i.ibb.co/CPR2GLw/wave.png" alt="logo" /&gt;
+            &lt;p class="x-name"&gt;BRAND&lt;span&gt;NAME&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;ol&gt;
+            &lt;li&gt;HOME&lt;/li&gt;
+            &lt;li&gt;DOCUMENTATION&lt;/li&gt;
+            &lt;li&gt;ABOUT&lt;/li&gt;
+        &lt;/ol&gt;
     &lt;/nav&gt;
-  &lt;/div&gt;</code></pre>
+&lt;/header&gt;
+                    </code>
+                    <pre id="Modal"></pre>
+                  </pre>
                 </section>
 
-                <pre id="Modal"></pre>
+                <!-- Modal -->
+
+                
 
                 <section class="component-box">
-                  <div class="component-title">Modal</div>
-                  <div class="component-description">
+                  <p class="component-title">Modal</p>
+                  <p class="component-description">
                     A modal (also called a modal window or lightbox) is a web
                     page element that displays in front of and deactivates all
                     other page content.
-                  </div>
+                  </p>
                   <div class="component">
                     <div class="x-modal-box">
-                      <div class="x-modal-head">Head</div>
-                      <div class="x-modal-body">Body</div>
-                      <div class="x-modal-footer">
-                        <div>
-                          <button class="x-primary-button">Ok</button>
-                          <button class="x-secondary-button">Exit</button>
-                        </div>
-                      </div>
+                      <p class="x-modal-head">Head</p>
+                      <p class="x-modal-body">Body</p>
+                      <section class="x-modal-footer">
+                          <button class="x-prm-btn">Ok</button>
+                          <button class="x-scnd-btn">Exit</button>
+                      </section>
                     </div>
                   </div>
 
-                  <pre><code class="language-html">&lt;div class="x-modal-box"&gt;
-    &lt;div class="x-modal-head"&gt;Head&lt;/div&gt;
-    &lt;div class="x-modal-body"&gt;Body&lt;/div&gt;
-    &lt;div class="x-modal-footer"&gt;
-      &lt;div&gt;
+                  <!-- code snippet -->
+
+                  <pre>
+                    <code class="language-html">
+&lt;div class="x-modal-box"&gt;
+    &lt;p class="x-modal-head"&gt;Head&lt;/p&gt;
+    &lt;p class="x-modal-body"&gt;Body&lt;/p&gt;
+    &lt;section class="x-modal-footer"&gt;
         &lt;button class="x-primary-button"&gt;Ok&lt;/button&gt;
         &lt;button class="x-secondary-button"&gt;Exit&lt;/button&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;</code></pre>
+    &lt;/section&gt;
+  &lt;/div&gt;
+                      </code>
+                    </pre>
+                    <pre id="Rating"></pre>
                 </section>
 
-                <pre id="Rating"></pre>
+                <!-- Rating -->
 
-                <section class="component-box">
-                  <div class="component-title">Rating</div>
-                  <div class="component-description">
-                    Rating component's are used for grading purpose for eg
-                    giving rating to clothes in ecommerce site.
-                  </div>
+                
+
+                <div class="component-box">
+                  <p class="component-title">Rating</p>
+                  <p class="component-description">Rating component's are used for grading purpose for eg giving rating to clothes in ecommerce site.
+                  </p>
                   <div class="component">
                     <div class="x-star-rating">
-                      <div class="x-star-text">Rating</div>
-                      <div class="x-star-box">
+                      <p class="x-star-text">Rating</p>
+                      <section class="x-star-box">
                         <i class="fa fa-star-o x-star"></i>
                         <i class="fa fa-star-o x-star"></i>
                         <i class="fa fa-star-o x-star"></i>
                         <i class="fa fa-star-o x-star"></i>
                         <i class="fa fa-star-o x-star"></i>
-                      </div>
+                      </section>
                     </div>
 
-                    <pre><code class="language-html">
-  &lt;div class="x-star-rating"&gt;
-    &lt;div class="x-star-text"&gt;Rating&lt;/div&gt;
-    &lt;div class="x-star-box"&gt;
-      &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
-      &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
-      &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
-      &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
-      &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;</code></pre>
+                    <!-- Code snippet -->
+
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-star-rating"&gt;
+    &lt;p class="x-star-text"&gt;Rating&lt;/p&gt;
+    &lt;section class="x-star-box"&gt;
+        &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
+        &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
+        &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
+        &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
+        &lt;i class="fa fa-star-o x-star"&gt;&lt;/i&gt;
+    &lt;/section&gt;
+&lt;/div&gt;
+                      </code>
+                    </pre>
 
                     <div class="x-smile-rating">
-                      <div class="x-smile-text">Rating</div>
-                      <div class="x-smile-box">
+                      <p class="x-smile-text">Rating</p>
+                      <section class="x-smile-box">
                         <i class="fa fa-frown-o x-bad"></i>
                         <i class="fa fa-meh-o x-ok"></i>
                         <i class="fa fa-smile-o x-good"></i>
-                      </div>
+                      </section>
                     </div>
+
                   </div>
 
-                  <pre><code class="language-html">&lt;div class="x-smile-rating"&gt;
-    &lt;div class="x-smile-text"&gt;Rating&lt;/div&gt;
-    &lt;div class="x-smile-box"&gt;
-      &lt;i class="fa fa-frown-o x-bad"&gt;&lt;/i&gt;
-      &lt;i class="fa fa-meh-o x-ok"&gt;&lt;/i&gt;
-      &lt;i class="fa fa-smile-o x-good"7gt;&lt;/i&gt;
-    &lt;/div&gt;
-  &lt;/div&gt</code></pre>
-                </section>
+                  <!-- Code snippet -->
+                  <pre id="Simplified"></pre>
+                  <pre>
+                    <code class="language-html">
+&lt;div class="x-smile-rating"&gt;
+    &lt;p class="x-smile-text"&gt;Rating&lt;/p&gt;
+    &lt;section class="x-smile-box"&gt;
+        &lt;i class="fa fa-frown-o x-bad"&gt;&lt;/i&gt;
+        &lt;i class="fa fa-meh-o x-ok"&gt;&lt;/i&gt;
+        &lt;i class="fa fa-smile-o x-good"7gt;&lt;/i&gt;
+    &lt;/section&gt;
+&lt;/div&gt
+                  </code>
+                </pre>
+                </div>
 
-                <pre id="Simplified"></pre>
+                
 
                 <section class="component-box">
-                  <div class="component-title">Simplified Grid</div>
-                  <div class="component-description">
+                  <p class="component-title">Simplified Grid</p>
+                  <p class="component-description">
                     The CSS Grid Layout Module offers a grid-based layout
                     system, with rows and columns, making it easier to design
                     web pages without having to use floats and positioning.
-                  </div>
+                  </p>
                   <div class="component">
                     <div class="x-grid-container">
                       <div class="x-grid-two-layout">
-                        <div class="x-grid-item">ITEM 1</div>
-                        <div class="x-grid-item">ITEM 2</div>
+                        <section class="x-grid-item">ITEM 1</section>
+                        <section class="x-grid-item">ITEM 2</section>
                       </div>
                     </div>
 
-                    <pre><code class="language-html">&lt;div class="x-grid-two-layout"&gt;
-    &lt;div class="x-grid-item"&gt;ITEM 1&lt;/div&gt;
-    &lt;div class="x-grid-item"&gt;ITEM 2&lt;/div&gt;
-  &lt;/div&gt;</code></pre>
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-grid-two-layout"&gt;
+    &lt;section class="x-grid-item"&gt;
+        ITEM 1
+    &lt;/section&gt;
+    &lt;section class="x-grid-item"&gt;
+        ITEM 2
+    &lt;/section&gt;
+&lt;/div&gt;
+                      </code>
+                    </pre>
+
 
                     <div class="x-grid-container">
                       <div class="x-grid-three-layout">
-                        <div class="x-grid-item-one">ITEM 1</div>
-                        <div class="x-grid-item-two">ITEM 2</div>
-                        <div class="x-grid-item-two">ITEM 3</div>
+                        <section class="x-grid-item-one">ITEM 1</section>
+                        <section class="x-grid-item-two">ITEM 2</section>
+                        <section class="x-grid-item-two">ITEM 3</section>
                       </div>
                     </div>
+                    <pre id="Text-utilities"></pre>
 
-                    <pre><code class="language-html">&lt;div class="x-grid-three-layout"&gt;
-    &lt;div class="x-grid-item-one"&gt;ITEM 1&lt;/div&gt;
-    &lt;div class="x-grid-item-two"&gt;ITEM 2&lt;/div&gt;
-    &lt;div class="x-grid-item-two"&gt;ITEM 3&lt;/div&gt;
-  &lt;/div&gt;</code></pre>
+                    <!-- Code snippet  -->
+                    <pre>
+                      <code class="language-html">
+&lt;div class="x-grid-three-layout"&gt;
+    &lt;section class="x-grid-item-one"&gt;ITEM 1&lt;/section&gt;
+    &lt;section class="x-grid-item-two"&gt;ITEM 2&lt;/section&gt;
+    &lt;section class="x-grid-item-two"&gt;ITEM 3&lt;/section&gt;
+&lt;/div&gt;
+                      </code>
+                    </pre>
                   </div>
                 </section>
 
-                <pre id="Text-utilities"></pre>
+                <!-- Text utilities -->
+
 
                 <section class="component-box">
-                  <div class="component-title">Text Utilities</div>
-                  <div class="component-description">
+                  <p class="component-title">Text Utilities</p>
+                  <p class="component-description">
                     Text utlilities are the classes used for manipulating text
                     properties
-                  </div>
+                  </p>
                   <div class="component">
                     <div class="x-text-utilities">
-                      <div>
-                        <div class="x-heading-1">Heading</div>
-                        <div class="x-heading-2">Heading</div>
-                        <div class="x-heading-3">Heading</div>
+                      <div class ="x-box">
+                          <p class="x-heading-1">Heading</p>
+                          <p class="x-heading-2">Heading</p>
+                          <p class="x-heading-3">Heading</p>
                       </div>
-                      <div class="x-center-text-box">
-                        <div class="x-center-text x-heading-3">
-                          Centered Text
-                        </div>
-                      </div>
-                    </div>
 
-                    <pre><code class="language-html">&lt;div class="x-text-utilities"&gt;
-    &lt;div&gt;
-      &lt;div class="x-heading-1">Heading&lt;/div&gt;
-      &lt;div class="x-heading-2">Heading&lt;/div&gt;
-      &lt;div class="x-heading-3">Heading&lt;/div&gt;
+                      <!-- Code snippet -->
+                      <pre>
+                        <code class="language-html">
+
+&lt;div class="x-text-utilities"&gt;
+    &lt;div class ="x-box"&gt;
+        &lt;p class="x-heading-1">Heading&lt;/p&gt;
+        &lt;p class="x-heading-2">Heading&lt;/p&gt;
+        &lt;p class="x-heading-3">Heading&lt;/p&gt;
     &lt;/div&gt;
-    &lt;div class="x-center-text-box"&gt;
-      &lt;div class="x-center-text x-heading-3"&gt;
-        Centered Text
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;</code></pre>
+&lt;/div&gt;
+                        </code>
+                      </pre>
+
+                      <!-- text align -->
+                      
+                      <div class="x-box">
+                          <p class="x-center-text">
+                              Centered Text
+                          </p>
+                          <p class="x-right-text">
+                              Right Text
+                          </p>
+                          <p class="x-left-text">
+                              Left Text
+                          </p>
+              
+                      </div>
+
+                      <!-- Code snippet -->
+
+                      <pre>
+                        <code class="language-html">
+&lt;p class="x-center-text"&gt;
+    Centered Text
+&lt;/p&gt;
+&lt;p class="x-right-text"&gt;
+    Right Text
+&lt;/p&gt;
+&lt;p class="x-left-text"&gt;
+    Left Text
+&lt;/p&gt;
+                        </code>
+                      </pre>
+
+                      <!-- text style -->
+              
+                      <div class ="x-box">
+                          <p class ="x-bold-text">Bold text</p>
+                          <p class ="x-italic-text">Italic text</p>
+                      </div>
+
+                      <!-- Code snippet -->
+
+                      <pre>
+                        <code class="language-html">
+&lt;p class ="x-bold-text"&gt;Bold text&lt;/p&gt;
+&lt;p class ="x-italic-text&gt;Italic text&lt;/p&gt;
+                        </code>
+                      </pre>
+                  </div>
+
+                  </div>
+
+                    
                   </div>
                 </section>
               </div>
             </div>
-          </div>
+          </main>
         </div>
-      </div>
+      </main>
     </div>
     <script src="../js/component.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
