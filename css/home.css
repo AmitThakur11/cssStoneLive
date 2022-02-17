@@ -65,7 +65,11 @@
 
 
 @media (max-width: 620px) {
+  
 
+  .home-img > img{
+    width: 80%;
+  }
   .inside-home{
     height: fit-content;
   }
