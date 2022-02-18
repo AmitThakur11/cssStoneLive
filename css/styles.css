@@ -207,11 +207,12 @@ code {
 @media (max-width: 620px) {
 
   .nav-item {
-    font-size: 14px;
+    font-size: 12px;
   }
   .app-container > nav {
     height: 12vh;
     width: 100vw;
+    padding: 0px 0px;
   }
 
   .logo img {
@@ -298,6 +299,14 @@ code {
 
 
 @media(max-height : 420px){
+  .app-container > nav{
+    padding: 0px 0px;
+
+  }
+  .nav-item{
+    font-size: 12px;
+    margin-right: 5px;
+  }
   code {
     width: 300px;
     font-size: 12px;
